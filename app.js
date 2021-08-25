@@ -22,7 +22,6 @@ document.addEventListener('DomContentLoaded', () => {
             const square = document.createElement('div')
             square.dataset.id = i
             grid.appendChild(square)
-            userGrid.appendChild(square)
             squares.push(square)
         }
     }
