@@ -83,4 +83,6 @@ document.addEventListener('DomContentLoaded', () => {
 
         else generate(ship)
     }
+
+    generate(shipArray[0])
 })
