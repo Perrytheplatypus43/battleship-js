@@ -4,6 +4,7 @@ The classic game of Battleship in vanilla js.
 ## Latest Versions:
 ### v0.0.0-alpha.2
 [Play](https://perrytheplatypus43.github.io/battleship-js/)
+
 Added the ships to the ship yard and added the areanas still not playable.
 
 ### v0.0.0-alpha.1
