@@ -77,7 +77,7 @@ document.addEventListener('DomContentLoaded', () => {
 
         const isTaken = current.some(index => computerSquares[randomStart + index].classList.contains('taken'))
         const isAtRightEdge = current.some(index => (randomStart + index) % width === width - 1)
-        const isAtLeftEdge = current.come(index => (randomStart + index) % width === 0)
+        const isAtLeftEdge = current.some(index => (randomStart + index) % width === 0)
 
         if (!isTaken && !isAtRightEdge && !isAtLeftEdge) current.forEach(index => computerSquares[randomStart + index].classList.add('taken', ship.name))
 
