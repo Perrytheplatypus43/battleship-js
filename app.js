@@ -8,4 +8,8 @@ document.addEventListener('DomContentLoaded', () => {
     const cruiser = document.querySelector('.cruiser-container')
     const battleship = document.querySelector('.battleship-container')
     const carrier = document.querySelector('.carrier-container')
+    const startButton = document.querySelector('#start')
+    const rotateButton = document.querySelector('#rotate')
+    const turnDisplay = document.querySelector('#whose-go')
+    const infoDisplay = document.querySelector('#info')
 })
