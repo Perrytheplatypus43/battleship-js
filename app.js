@@ -13,6 +13,8 @@ document.addEventListener('DomContentLoaded', () => {
     const turnDisplay = document.querySelector('#whose-go')
     const infoDisplay = document.querySelector('#info')
     const userSquares = []
+    const computerSquares = []
+
 
     //Create Boards
     function createBoard(grid, squares, width) {
@@ -25,5 +27,5 @@ document.addEventListener('DomContentLoaded', () => {
     }
 
     createBoard(userGrid, userSquares, width)
-
+    createBoard(computerGrid, computerSquares, width)
 })
