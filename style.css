@@ -31,3 +31,10 @@
     background-color:lightgreen;
     margin:20px;
 }
+
+.destroyer-container {
+    width: 80px;
+    height: 40px;
+    background-color: lightsalmon;
+    margin: 10px;
+}
