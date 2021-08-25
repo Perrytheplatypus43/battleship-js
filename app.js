@@ -15,6 +15,8 @@ document.addEventListener('DomContentLoaded', () => {
     const userSquares = []
     const computerSquares = []
 
+    const width = 10
+
 
     //Create Boards
     function createBoard(grid, squares) {
