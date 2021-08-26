@@ -80,3 +80,19 @@
 .destroyer {
     background-color: lightsalmon;
 }
+
+.submarine {
+    background-color: darkblue;
+}
+
+.cruiser {
+    background-color: lightgray;
+}
+
+.battleship{
+    background-color: green;
+}
+
+.carrier{
+    background-color: rgb(83, 83, 83);
+}

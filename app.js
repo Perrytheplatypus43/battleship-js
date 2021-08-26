@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let current = ship.directions[randomDirection]
         if (randomDirection === 0) direction = 1
         if (randomDirection === 1) direction = 10
-        let randomStart = Math.floor(Math.random() * computerSquares.length - (ship.directions[0].length * direction))
+        let randomStart = Math.abs(Math.floor(Math.random() * computerSquares.length - (ship.directions[0].length * direction)))
 
         const isTaken = current.some(index => computerSquares[randomStart + index].classList.contains('taken'))
         const isAtRightEdge = current.some(index => (randomStart + index) % width === width - 1)
@@ -87,4 +87,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     generate(shipArray[0])
+    generate(shipArray[1])
+    generate(shipArray[2])
+    generate(shipArray[3])
+    generate(shipArray[4])
 })
