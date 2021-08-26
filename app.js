@@ -138,10 +138,10 @@ document.addEventListener('DOMContentLoaded', () => {
         draggedShipLength = draggedShip.length
     }
     function dragOver(e) {
-        e.preventDefualt()
+        e.preventDefault()
     }
     function dragEnter(e) {
-        e.preventDefualt()
+        e.preventDefault()
     }
     function dragLeave() {
         
